@@ -1,2 +1,3 @@
 # 420-FAF-LI-EM
-Cours POO 2
+
+AEC/DAS Bloc 2 - Programmation rotientée objet 2
