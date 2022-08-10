@@ -8981,8 +8981,8 @@ Error message and password prompt
 <div created="20210610151208950" modified="20210713122230572" title="$:/state/toc/Table des matières-04 Structures de données multidimensionnelles-1329480811">
 <pre>close</pre>
 </div>
-<div created="20210617123534929" modified="20210706160142549" title="$:/state/toc/Table des matières-05 Héritage--249536019">
-<pre>close</pre>
+<div created="20210617123534929" modified="20220810120722851" title="$:/state/toc/Table des matières-05 Héritage--249536019">
+<pre>open</pre>
 </div>
 <div created="20210621172932323" modified="20210706160150169" title="$:/state/toc/Table des matières-05 Héritage-1329480811">
 <pre>close</pre>
@@ -9062,16 +9062,16 @@ Error message and password prompt
         },
         &quot;$:/info/browser/screen/width&quot;: {
             &quot;title&quot;: &quot;$:/info/browser/screen/width&quot;,
-            &quot;text&quot;: &quot;3072&quot;
+            &quot;text&quot;: &quot;1728&quot;
         },
         &quot;$:/info/browser/screen/height&quot;: {
             &quot;title&quot;: &quot;$:/info/browser/screen/height&quot;,
-            &quot;text&quot;: &quot;1728&quot;
+            &quot;text&quot;: &quot;3073&quot;
         }
     }
 }</pre>
 </div>
-<div created="20210525114430541" modified="20220704120143058" title="$:/temp/search">
+<div created="20210525114430541" modified="20220810125320371" title="$:/temp/search">
 <pre></pre>
 </div>
 <div author="JeremyRuston" bag="default" core-version="&gt;=5.0.0" dependents="$:/themes/tiddlywiki/vanilla" description="Emphasises individual tiddlers" name="Snow White" plugin-priority="0" plugin-type="theme" revision="0" title="$:/themes/tiddlywiki/snowwhite" type="application/json" version="5.1.17">
@@ -9219,7 +9219,7 @@ Error message and password prompt
 
 &lt;/div&gt;</pre>
 </div>
-<div created="20210617123002252" modified="20220620151815929" tags="OTDM" title="05 Héritage">
+<div created="20210617123002252" modified="20220810120716946" tags="[[Table des matières]]" title="05 Héritage">
 <pre>&lt;div class=&quot;tc-table-of-contents&quot;&gt;
 
 &lt;$macrocall $name=&quot;toc-selective-expandable&quot; tag=&lt;&lt;currentTiddler&gt;&gt;/&gt;
@@ -9867,7 +9867,7 @@ int[][,] multiEscalier = new int[3][,]
 
 &lt;iframe width=&quot;640&quot; height=&quot;360&quot; src=&quot;https://web.microsoftstream.com/embed/video/40ea0d1f-855c-4fc8-aac9-a2498a54e85c?autoplay=false&amp;showinfo=true&quot; allowfullscreen style=&quot;border:none;&quot;&gt;&lt;/iframe&gt;</pre>
 </div>
-<div created="20210617123046872" modified="20210621184711802" tags="[[05 Héritage]]" title="5.01 Concept général">
+<div created="20210617123046872" modified="20220810121130547" tags="[[05 Héritage]]" title="5.01 Concept général">
 <pre>L'héritage de classe se produit lorsqu'une classe est dérivée d'une autre. Pour illustrer le concept, voyons le diagramme ci-dessous:
 
 [img[Exemple d'héritage|https://i.imgur.com/DnADVb5.png]]
@@ -9887,14 +9887,16 @@ Chaque flèche signifie «''est un''»:
 * les classes «camion» et «voiture» ''dérivent'' de la classe «véhicule motorisé à 4 roues»
 * les classes «moto» et «scooter» ''dérivent'' de la classe «véhicule motorisé à 2 roues»
 
-Les classes dérivées ''héritent'' des membres (champs, propriétés et méthodes) des classes dont elles dérivent (leurs ''ascendants''), mais ont des caractéristiques qui les distinguent; ainsi, tous les camions et toutes les voitures ont 4 roues et un moteur, mais les camions et les voitures ont des ''caractéristiques propres'' qui les différencient les uns des autres. Une classe héritière peut évidemment avoir ses propres membres.
+Les classes dérivées ''héritent'' des membres (champs, propriétés et méthodes) des classes dont elles dérivent (leurs ''ascendants''), mais ont des caractéristiques qui les distinguent; ainsi, tous les camions et toutes les voitures ont 4 roues et un moteur, mais les camions et les voitures ont des ''caractéristiques propres'' qui les différencient les uns des autres.
+
+Ainsi, une classe héritière hérite automatiquement des membres de tous ses ascendants, et peut avoir en plus ses propres membres qui s'ajouteront.
 
 ---
 
 &lt;iframe width=&quot;640&quot; height=&quot;360&quot; src=&quot;https://web.microsoftstream.com/embed/video/790d08fb-478d-4732-bba4-2b095ac7c534?autoplay=false&amp;showinfo=true&quot; allowfullscreen style=&quot;border:none;&quot;&gt;&lt;/iframe&gt;</pre>
 </div>
-<div created="20210617123123058" modified="20210629122256991" tags="[[05 Héritage]]" title="5.02 En C#">
-<pre>En C#, toutes les variables, même les ''int'', ''double'', etc., sont des objets (donc des instances de classes), et tous les objets en C# dérivent au minimum de la [[classe Object|https://docs.microsoft.com/en-us/dotnet/api/system.object?view=netframework-4.8]].
+<div created="20210617123123058" modified="20220810121918124" tags="[[05 Héritage]]" title="5.02 En C#">
+<pre>En C#, toutes les variables, même les ''int'', ''double'', etc., sont des objets (donc des instances de classes), et tous les objets en C# dérivent au minimum de la [[classe Object|https://docs.microsoft.com/fr-ca/dotnet/api/system.object?view=netframework-4.8]].
 
 Ainsi, puisque la classe ''Object'' possède la méthode ''~ToString()'', cela signifie que toutes les variables C# hériteront aussi de la méthode ''~ToString()'', même si elle n'a pas été définie pour, par exemple, une classe qu'on aura créée soi-même.
 
@@ -10003,7 +10005,7 @@ Sortie:
 
 &lt;iframe width=&quot;640&quot; height=&quot;360&quot; src=&quot;https://web.microsoftstream.com/embed/video/22c328b0-d081-44cd-b479-f309bcb0a9fa?autoplay=false&amp;showinfo=true&quot; allowfullscreen style=&quot;border:none;&quot;&gt;&lt;/iframe&gt;</pre>
 </div>
-<div created="20210617123252500" modified="20210622144937835" tags="[[05 Héritage]]" title="5.03 Substitution">
+<div created="20210617123252500" modified="20220810123653978" tags="[[05 Héritage]]" title="5.03 Substitution">
 <pre>Le concept d'héritage implique que les classes héritières, par nature, héritent des membres de leurs ascendants.
 
 Cependant, une classe héritière pourrait vouloir avoir un membre du même nom, mais différent de celui de ses ancêtres; cela peut se faire par la ''substitution'' (//overriding//).
@@ -10069,7 +10071,7 @@ class Enfant : Parent
 &lt;&lt;&lt;
 ! Erratum
 
-Dans la vidéo suivante, j'ai oublié par erreur de faire hériter la classe //Enfant// de la classe //Parent//, ce qui m'a erronément amené à conclure que seules les méthodes pouvaient être substituées: mes notes originales étaient correctes, on peut également substituer les propriétés (''mais pas les champs'').
+Dans la vidéo ci-dessous, j'ai oublié par erreur de faire hériter la classe //Enfant// de la classe //Parent//, ce qui m'a erronément amené à conclure que seules les méthodes pouvaient être substituées: mes notes originales étaient correctes, on peut également substituer les propriétés (''mais pas les champs'').
 &lt;&lt;&lt;
 
 &lt;iframe width=&quot;640&quot; height=&quot;360&quot; src=&quot;https://web.microsoftstream.com/embed/video/98927665-136e-472b-93f8-5d4f20838837?autoplay=false&amp;showinfo=true&quot; allowfullscreen style=&quot;border:none;&quot;&gt;&lt;/iframe&gt;</pre>
@@ -10808,14 +10810,15 @@ pre, code {
 &lt;/p&gt;
 \end</pre>
 </div>
-<div created="20220620150548688" modified="20220704123035241" title="Semainier">
+<div created="20220620150548688" modified="20220810120808704" title="Semainier">
 <pre>| Semaine | Sections à l'étude | Exercices / Travaux |h
 | 1 (20 juin) | 1 | 1.Exercices |
 | 2 (27 juin) | 1, 99 | Défi 1 |
 | 3 (4 juillet) | 2 | Défi 2 |
 | 4 (11 juillet) | 3 | Défi 3 |
 | 5-6-7 | ''Vacances'' |&lt;|
-| 8 (8 août) | 4 | Défi 4 |</pre>
+| 8 (8 août) | 4 | Défi 4 |
+| 9 (15 août) | 5 | Défi 5 / ''Date limite Défi 1'' |</pre>
 </div>
 <div bag="default" caption="Contenu" created="20181113130821883" list-before="$:/core/ui/SideBar/Open" modified="20181113131023314" revision="0" tags="$:/tags/SideBar" title="Table des matières" type="text/vnd.tiddlywiki">
 <pre>&lt;div class=&quot;tc-table-of-contents&quot;&gt;
